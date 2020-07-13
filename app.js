@@ -33,7 +33,7 @@ const jobSchema = new mongoose.Schema({
 const Job = mongoose.model('Job', jobSchema);
 
 app.get('/', (req, res) => {
-  res.send(`pretty fly for a white guy`);
+  res.send(`Welcome to tuesday.com's RESTful API!`);
 });
 
 app
